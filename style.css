@@ -2,10 +2,36 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+p {
+  color: #333;
+}
+
 
 
 header img {
   width: 1120px;
+}
+
+h1{
+  font-size: 36px;
+}
+
+h2{
+  color: #1b1b1b;
+  font-size: 32px;
+}
+
+h3{
+  font-size: 28px;
+}
+
+h1, h2, h3, strong {
+  font-weight: bold;
+}
+
+#description {
+  color: #333;
+  text-align: center;
 }
 
 .head-line {
@@ -17,4 +43,25 @@ header img {
   height: 3054px;
   box-sizing: border-box;
   margin: 137px auto;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+ul li {
+  color: #0c51a7;
+  font-weight: bold;
+}
+
+#casais {
+  color: #591b98;
+}
+
+#familias {
+  color: #e5245e;
+}
+
+#orçamento {
+  color: #e95e10;
 }
