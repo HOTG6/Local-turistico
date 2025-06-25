@@ -23,8 +23,8 @@ header {
   border-top: solid 1px rgb(0, 0, 0, 0.1);
 }
 
-.readmi2{
-    border-top: solid 1px rgb(0, 0, 0, 0.1);
+.readmi2 {
+  border-top: solid 1px rgb(0, 0, 0, 0.1);
   padding-top: 40px;
   text-align: center;
 }
@@ -40,24 +40,27 @@ img {
   border-radius: 28px;
 }
 
-h1{
+h1 {
   font-size: 36px;
   margin-bottom: 40px;
   margin-top: 10px;
 }
 
-h2{
+h2 {
   color: #1b1b1b;
   font-size: 32px;
   margin-top: 2px;
   margin-bottom: 8px;
 }
 
-h3{
+h3 {
   font-size: 28px;
 }
 
-h1, h2, h3, strong {
+h1,
+h2,
+h3,
+strong {
   font-weight: bold;
 }
 
@@ -86,6 +89,14 @@ ul li {
   font-weight: bold;
 }
 
+ul li::marker {
+  color: #333333;
+}
+
+ul {
+  padding-left: 15px;
+}
+
 #casais {
   color: #591b98;
 }
@@ -96,4 +107,16 @@ ul li {
 
 #orçamento {
   color: #e95e10;
+}
+
+#heart {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+
+}
+
+footer {
+  font-family: "Alice", serif;
+  text-align: center;
 }
